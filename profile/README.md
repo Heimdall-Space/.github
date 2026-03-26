@@ -1,19 +1,21 @@
-# Heimdall.earth
+# Heimdall Space
 
 **A unified platform for visualizing real-time global activities in 3D**
 
-Heimdall brings together various geospatial datasets into a single interactive browser experience, starting with comprehensive satellite tracking of over 28,000 objects in real-time.
+Heimdall tracks 30,000+ active satellites and debris on an interactive 3D globe, combining orbital data, satellite catalogs, and launch information into a single browser experience.
 
 ## Features
-- **Live satellite tracking** - Monitor real-time positions of satellites and space debris
-- **Interactive filtering** - Browse by category (Starlink, ISS, debris, etc.)
-- **Detailed inspection** - Click any satellite for live metadata
-- **Orbit visualization** - Toggle between live and predicted orbital paths
+- **Live satellite tracking** - Real-time SGP4 orbital propagation for 30,000+ objects
+- **Multi-source data** - Orbital elements, satellite catalogs, operator metadata, and upcoming launches
+- **Interactive filtering** - Filter by orbit type, purpose, country, operator, or constellation
+- **Detailed inspection** - Click any satellite for full metadata, orbital parameters, and operator info
+- **Orbit visualization** - View live and predicted orbital paths
+- **Customer portal** - Authenticated access to full catalog data with advanced filtering and Excel export
 
 ## Tech Stack
-React • Rust • Java Spring Boot (Moving to Go) • PostgreSQL • Docker • Self-hosted VPS
+React • Go • PostgreSQL • Docker
 
 ## Try it
 🌍 **[Visit Heimdallspace.com](https://heimdallspace.com/)** *(Desktop recommended)*
 
-*Built by YuCheng Li, Thomas Spina, Kelvin Chen*
+*Built by YuCheng Li, Thomas Spina, Kelvin Chen, Kevin Wong*
