@@ -1,21 +1,19 @@
-# Heimdall Space
+# Gravity
 
-**A unified platform for visualizing real-time global activities in 3D**
+**Learn Japanese through the words and sentences you actually encounter**
 
-Heimdall tracks 30,000+ active satellites and debris on an interactive 3D globe, combining orbital data, satellite catalogs, and launch information into a single browser experience.
+Gravity is a language-learning app for vocabulary acquisition, text capture, dictionary
+lookup, flashcard practice, and voice feedback — built for real reading and listening
+practice, not just isolated drills.
 
 ## Features
-- **Live satellite tracking** - Real-time SGP4 orbital propagation for 30,000+ objects
-- **Multi-source data** - Orbital elements, satellite catalogs, operator metadata, and upcoming launches
-- **Interactive filtering** - Filter by orbit type, purpose, country, operator, or constellation
-- **Detailed inspection** - Click any satellite for full metadata, orbital parameters, and operator info
-- **Orbit visualization** - View live and predicted orbital paths
-- **Customer portal** - Authenticated access to full catalog data with advanced filtering and Excel export
-
-## Tech Stack
-React • Go • PostgreSQL • Docker
+- **Text capture & lookup** - Snap a photo of real-world text and get instant OCR, dictionary, and grammar lookup
+- **Dictionary & grammar** - Fast, versioned dictionary packs for Japanese and Mandarin Chinese
+- **Flashcards & memory** - Spaced-repetition review built around what you've actually looked up
+- **Example sentences** - Sense-specific example sentences generated and reviewed for real usage context
+- **Voice feedback** - Practice pronunciation with feedback on your speech
 
 ## Try it
-🌍 **[Visit Heimdallspace.com](https://heimdallspace.com/)** *(Desktop recommended)*
+📱 **[Visit learngravity.com](https://learngravity.com/)**
 
 *Built by YuCheng Li, Thomas Spina, Kelvin Chen, Kevin Wong*
